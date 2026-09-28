@@ -1,4 +1,5 @@
 import { HeroGallery } from "./hero-gallery"
+import Image from "next/image"
 import { ArrowRight, MapPin, Phone } from "lucide-react"
 import { ctaOutline, ctaPrimary, site } from "@/lib/site"
 
