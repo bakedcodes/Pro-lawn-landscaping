@@ -15,12 +15,12 @@ export function Hero() {
     <section id="home" className="relative overflow-hidden pt-18">
       <div className="mx-auto max-w-7xl px-5 pb-12 pt-10 sm:px-8 md:pt-16 lg:pb-16">
         <div className="animate-in fade-in duration-700">
-          <p className="inline-flex items-center gap-2 rounded-full border border-border bg-card/70 px-3.5 py-1.5 text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">
-            <MapPin className="size-3.5 text-accent" aria-hidden="true" />
+         {/*  <p className="inline-flex items-center gap-2 rounded-full border border-border bg-card/70 px-3.5 py-1.5 text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">
+           <MapPin className="size-3.5 text-accent" aria-hidden="true" />
             Fort Collins, Colorado
           </p>
 
-          {/* Main homepage header slider: this replaces the large hero headline/copy area. */}
+          Main homepage header slider: this replaces the large hero headline/copy area. */}
           <div className="mt-6 overflow-hidden rounded-[2rem]">
             <HeroGallery />
           </div>
