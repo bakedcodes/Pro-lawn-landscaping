@@ -1,19 +1,19 @@
 export const site = {
-  name: "Cnew\u2019s Quality Residential Work",
-  shortName: "Cnew\u2019s",
-  tagline: "Quality Residential Work",
-  phoneDisplay: "+1 970-691-0984",
-  phoneHref: "tel:+19706910984",
+  name: "Pro Lawn & Landscaping",
+  shortName: "Pro Lawn",
+  tagline: "Landscaping",
+  phoneDisplay: "(970) 576-8218",
+  phoneHref: "tel:+19705768218",
   address: {
-    street: "3406 Justice Ct",
-    city: "Fort Collins",
+    street: "5212 W F St",
+    city: "Greeley",
     region: "CO",
-    full: "3406 Justice Ct, Fort Collins, CO",
+    full: "5212 W F St, Greeley, CO 80631",
   },
   mapsHref:
-    "https://www.google.com/maps/search/?api=1&query=3406+Justice+Ct+Fort+Collins+CO",
+    "https://www.google.com/maps/search/?api=1&query=5212+W+F+St+Greeley+CO+80631",
   message:
-    "I treat every project as if it were my property. Quality work is what I do.",
+    "Professional landscaping that keeps your property looking its best.",
 } as const
 
 export const navLinks = [
