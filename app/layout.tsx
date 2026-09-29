@@ -12,36 +12,34 @@ const fraunces = Fraunces({
 
 export const metadata: Metadata = {
   title:
-    'Cnew’s Quality Residential Work | Handyman & Landscaping in Fort Collins, CO',
+    "Pro Lawn & Landscaping | Landscaping in Greeley, CO",
   description:
-    'Handyman, landscaping, painting, door installation, plumbing fixtures, gutter and window cleaning, and home maintenance in Fort Collins, Colorado. Call +1 970-691-0984 for a quote.',
+    "Professional landscaping and lawn care services in Greeley, Colorado. Call (970) 576-8218 for a quote.",
   keywords: [
-    'Fort Collins handyman',
-    'Fort Collins landscaping',
-    'exterior painting Fort Collins',
-    'drywall repair Fort Collins',
-    'door installation Fort Collins',
-    'gutter cleaning Fort Collins',
-    'lawn care Fort Collins',
-    'home repair Fort Collins CO',
+    "Greeley landscaping",
+    "Greeley lawn care",
+    "landscaping Greeley CO",
+    "lawn maintenance Greeley",
+    "yard care Greeley CO",
   ],
   openGraph: {
-    title: 'Cnew’s Quality Residential Work — Fort Collins, CO',
+    title: "Pro Lawn & Landscaping — Greeley, CO",
     description:
-      'Handyman, landscaping, and home improvement services in Fort Collins. Request a quote today.',
-    type: 'website',
-    locale: 'en_US',
-    images: [{ url: '/images/hero.png', width: 1408, height: 768 }],
+      "Professional landscaping and lawn care services in Greeley, Colorado.",
+    type: "website",
+    locale: "en_US",
+    images: [{ url: "/images/hero.png", width: 1408, height: 768 }],
   },
   icons: {
     icon: [
-      { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
-      { url: '/icon-dark-32x32.png', media: '(prefers-color-scheme: dark)' },
-      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: "/icon-light-32x32.png", media: "(prefers-color-scheme: light)" },
+      { url: "/icon-dark-32x32.png", media: "(prefers-color-scheme: dark)" },
+      { url: "/icon.svg", type: "image/svg+xml" },
     ],
-    apple: '/apple-icon.png',
+    apple: "/apple-icon.png",
   },
 }
+
 
 export const viewport: Viewport = {
   colorScheme: 'light',
@@ -51,21 +49,22 @@ export const viewport: Viewport = {
 }
 
 const localBusinessJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'HomeAndConstructionBusiness',
-  name: 'Cnew’s Quality Residential Work',
-  telephone: '+1-970-691-0984',
+  "@context": "https://schema.org",
+  "@type": "LandscapingBusiness",
+  name: "Pro Lawn & Landscaping",
+  telephone: "+1-970-576-8218",
   address: {
-    '@type': 'PostalAddress',
-    streetAddress: '3406 Justice Ct',
-    addressLocality: 'Fort Collins',
-    addressRegion: 'CO',
-    addressCountry: 'US',
+    "@type": "PostalAddress",
+    streetAddress: "5212 W F St",
+    addressLocality: "Greeley",
+    addressRegion: "CO",
+    postalCode: "80631",
+    addressCountry: "US",
   },
-  areaServed: 'Fort Collins, CO',
-  slogan:
-    'I treat every project as if it were my property. Quality work is what I do.',
+  areaServed: "Greeley, CO",
+  slogan: "Professional landscaping that keeps your property looking its best.",
 }
+
 
 export default function RootLayout({
   children,
