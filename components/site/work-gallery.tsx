@@ -4,31 +4,31 @@ import { SectionHeading } from "./section-heading"
 
 const items = [
   {
-    src: "/images/work-painting.png",
-    alt: "Brush applying white paint to window trim on green wood siding",
-    category: "Painting",
-    caption: "Siding, trim, doors, decks, and fences",
+    src: "/images/hero.png",
+    alt: "Well-kept residential property with a manicured lawn and landscaped front yard",
+    category: "Lawn care",
+    caption: "Lawn areas, planting beds, and outdoor spaces",
     className: "sm:col-span-2 lg:col-span-2 lg:row-span-2",
   },
   {
-    src: "/images/work-doors.png",
-    alt: "Glass storm door on the front entry of a craftsman home",
-    category: "Doors & carpentry",
-    caption: "Closet, folding, screen, and storm doors",
+    src: "/images/work-exterior.png",
+    alt: "Residential landscape with stone edging and planted beds",
+    category: "Landscape improvements",
+    caption: "Landscape maintenance and yard care",
     className: "",
   },
   {
-    src: "/images/work-repairs.png",
-    alt: "Smoothly patched drywall with a putty knife and joint compound",
-    category: "Home repairs",
-    caption: "Drywall, caulking, and everyday fixes",
+    src: "/images/work-landscaping.png",
+    alt: "Freshly maintained lawn beside a flagstone path and planting beds",
+    category: "Property care",
+    caption: "Mowing, trimming, and routine lawn care",
     className: "",
   },
   {
     src: "/images/work-exterior.png",
     alt: "Low stone and brick garden wall with a neat gravel border",
-    category: "Exterior improvements",
-    caption: "Stone, brick, and gravel",
+    category: "Landscape improvements",
+    caption: "Stone, gravel, and landscape features",
     className: "",
   },
   {
@@ -39,15 +39,15 @@ const items = [
     className: "",
   },
   {
-    src: "/images/work-handyman.png",
-    alt: "Bathroom vanity with a brushed brass faucet and white sink",
-    category: "Home repairs",
-    caption: "Faucets, sinks, and fixture installs",
+    src: "/images/work-landscaping.png",
+    alt: "Well-maintained residential lawn and planting beds",
+    category: "Property care",
+    caption: "Yard maintenance and outdoor care",
     className: "sm:col-span-2 lg:col-span-4 lg:row-span-1",
   },
 ]
 
-const categories = ["Home repairs", "Exterior improvements", "Painting", "Doors & carpentry", "Lawn & landscaping"]
+const categories = ["Property care", "Landscape improvements", "Lawn care", "Yard maintenance", "Lawn & landscaping"]
 
 export function WorkGallery() {
   return (
@@ -57,7 +57,7 @@ export function WorkGallery() {
           <SectionHeading
             eyebrow="Our Work"
             title="Work we do."
-            description="A look at the kinds of repairs, improvements, and yard projects I take on for Fort Collins homeowners."
+            description="A look at the kinds of repairs, improvements, and yard projects I take on for Greeley homeowners."
           />
           <ul className="flex max-w-md flex-wrap gap-2 lg:justify-end" aria-label="Categories">
             {categories.map((c) => (

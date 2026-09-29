@@ -7,33 +7,27 @@ import { useEffect, useState } from "react"
 const slides = [
   {
     src: "/images/hero.png",
-    alt: "Well-kept home with fresh exterior paint, stone walkway, and manicured lawn",
-    label: "Exterior care",
-    detail: "Painting • Landscaping • Maintenance",
-  },
-  {
-    src: "/images/work-handyman.png",
-    alt: "Professional handyman work inside a residential home",
-    label: "Handyman work",
-    detail: "Assembly • Repairs • Installation",
-  },
-  {
-    src: "/images/work-painting.png",
-    alt: "Residential exterior painting project",
-    label: "Exterior painting",
-    detail: "Siding • Trim • Doors • Fences",
+    alt: "Well-kept residential property with a manicured lawn and landscaped front yard",
+    label: "Landscape care",
+    detail: "Landscaping • Lawn Care • Property Care",
   },
   {
     src: "/images/work-landscaping.png",
-    alt: "Clean, well-maintained residential landscaping",
+    alt: "Freshly maintained lawn beside a flagstone path and planting beds",
     label: "Lawn & landscaping",
-    detail: "Mowing • Cleanup • Yard care",
+    detail: "Lawn Care • Yard Maintenance • Cleanup",
   },
   {
-    src: "/images/work-repairs.png",
-    alt: "Neatly repaired residential drywall",
-    label: "Home repairs",
-    detail: "Drywall • Doors • Home maintenance",
+    src: "/images/work-exterior.png",
+    alt: "Residential landscape with stone edging and planted beds",
+    label: "Landscape improvements",
+    detail: "Stone • Gravel • Outdoor Spaces",
+  },
+  {
+    src: "/images/work-doors.png",
+    alt: "Well-kept residential front entry and surrounding outdoor space",
+    label: "Property care",
+    detail: "Outdoor Maintenance • Cleanup • Care",
   },
 ]
 
@@ -83,7 +77,7 @@ export function HeroGallery() {
 
       <div className="absolute inset-x-5 top-5 flex items-center justify-between sm:inset-x-6 sm:top-6">
         <span className="rounded-full border border-primary-foreground/25 bg-foreground/15 px-3 py-1.5 text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-primary-foreground backdrop-blur-md">
-          Cnew&apos;s Quality Work
+          Pro Lawn & Landscaping
         </span>
         <span className="rounded-full border border-primary-foreground/25 bg-foreground/15 px-3 py-1.5 text-xs font-medium text-primary-foreground backdrop-blur-md">
           {String(active + 1).padStart(2, "0")} / {String(slides.length).padStart(2, "0")}

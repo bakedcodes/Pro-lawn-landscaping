@@ -47,7 +47,7 @@ export function Contact() {
                 <span className="block text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
                   Based in
                 </span>
-                <span className="mt-1 block text-lg font-medium text-foreground">Fort Collins, Colorado</span>
+                <span className="mt-1 block text-lg font-medium text-foreground">Greeley, Colorado</span>
               </span>
               <ArrowUpRight
                 className="size-5 text-muted-foreground transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-primary"

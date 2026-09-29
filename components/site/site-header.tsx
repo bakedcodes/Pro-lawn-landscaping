@@ -164,7 +164,7 @@ export function SiteHeader() {
             </div>
             <p className="mt-5 flex items-center justify-center gap-2 text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground">
               <MapPin className="size-3.5 text-accent" aria-hidden="true" />
-              Fort Collins, Colorado
+              Greeley, Colorado
             </p>
           </div>
         </nav>

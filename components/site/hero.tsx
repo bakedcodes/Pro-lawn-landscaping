@@ -4,10 +4,10 @@ import { ArrowRight, MapPin, Phone } from "lucide-react"
 import { ctaOutline, ctaPrimary, site } from "@/lib/site"
 
 const strip = [
-  { src: "/images/work-painting.png", alt: "Fresh white paint on window trim", label: "Painting" },
-  { src: "/images/work-doors.png", alt: "Storm door on a craftsman entry", label: "Doors & carpentry" },
-  { src: "/images/work-landscaping.png", alt: "Striped lawn beside a flagstone path", label: "Lawn & landscaping" },
-  { src: "/images/work-repairs.png", alt: "Smoothly patched drywall", label: "Home repairs" },
+  { src: "/images/hero.png", alt: "Well-kept residential property with a manicured lawn", label: "Property care" },
+  { src: "/images/work-exterior.png", alt: "Residential landscape with stone edging and planted beds", label: "Landscape improvements" },
+  { src: "/images/work-landscaping.png", alt: "Freshly maintained lawn beside a flagstone path", label: "Lawn & landscaping" },
+  { src: "/images/work-landscaping.png", alt: "Well-maintained residential lawn and planting beds", label: "Lawn care" },
 ]
 
 export function Hero() {
@@ -17,7 +17,7 @@ export function Hero() {
         <div className="animate-in fade-in duration-700">
          {/*  <p className="inline-flex items-center gap-2 rounded-full border border-border bg-card/70 px-3.5 py-1.5 text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">
            <MapPin className="size-3.5 text-accent" aria-hidden="true" />
-            Fort Collins, Colorado
+            Greeley, Colorado
           </p>
 
           Main homepage header slider: this replaces the large hero headline/copy area. */}

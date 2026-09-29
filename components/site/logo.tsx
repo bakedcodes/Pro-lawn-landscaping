@@ -12,23 +12,28 @@ export function Logo({ inverted = false }: { inverted?: boolean }) {
       >
         <svg viewBox="0 0 40 40" className="size-7" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
-            d="M7.5 18.5 20 8l12.5 10.5"
+            d="M9 30.5c4.2-6.8 6.8-12.2 11-20.5 1.7 5.2 4.5 10.2 10 13.8"
             stroke="currentColor"
             strokeWidth="2.7"
             strokeLinecap="round"
             strokeLinejoin="round"
           />
           <path
-            d="M10.5 18.5v12h19v-12"
+            d="M7.5 31.5c6.2-2.2 13.2-2.3 25 0"
             stroke="currentColor"
             strokeWidth="2.7"
             strokeLinecap="round"
-            strokeLinejoin="round"
           />
           <path
-            d="M26.5 21.5c-1.45-1.05-3.2-1.65-5.05-1.65-4.85 0-8.75 3.45-8.75 7.7 0 1.05.25 2.05.7 2.95"
+            d="M14 27.8c2.2-3.4 5-5.3 8.5-6.3"
             stroke="currentColor"
-            strokeWidth="2.35"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+          />
+          <path
+            d="M12.2 18.5c2.5-.1 4.7.7 6.4 2.4"
+            stroke="currentColor"
+            strokeWidth="2.2"
             strokeLinecap="round"
           />
         </svg>
@@ -40,7 +45,7 @@ export function Logo({ inverted = false }: { inverted?: boolean }) {
             inverted ? "text-primary-foreground" : "text-foreground",
           )}
         >
-          {"Cnew’s"}
+          Pro Lawn
         </span>
         <span
           className={cn(
@@ -48,7 +53,7 @@ export function Logo({ inverted = false }: { inverted?: boolean }) {
             inverted ? "text-primary-foreground/70" : "text-muted-foreground",
           )}
         >
-          Quality Residential Work
+          &amp; Landscaping
         </span>
       </span>
     </span>

@@ -25,7 +25,7 @@ export function About() {
             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-foreground/60 to-transparent p-6 pt-24">
               <p className="flex items-center gap-2 text-xs font-medium uppercase tracking-[0.16em] text-primary-foreground/90">
                 <MapPin className="size-3.5 text-accent" aria-hidden="true" />
-                Based in Fort Collins, Colorado
+                Based in Greeley, Colorado
               </p>
             </div>
           </div>
@@ -36,7 +36,7 @@ export function About() {
         </div>
 
         <div>
-          <SectionHeading eyebrow="About" title="Your neighbor for quality residential work." />
+          <SectionHeading eyebrow="About" title="Your local landscaping partner." />
 
           <figure className="mt-8">
             <blockquote className="font-serif text-3xl italic leading-snug text-primary sm:text-4xl">
@@ -46,18 +46,17 @@ export function About() {
             </blockquote>
             <figcaption className="mt-4 flex items-center gap-3 text-sm font-medium text-foreground">
               <span className="h-px w-8 bg-accent" aria-hidden="true" />
-              {"Cnew, "}
+              {"Pro Lawn & Landscaping, "}
               <span className="text-muted-foreground">{site.name}</span>
             </figcaption>
           </figure>
 
           <div className="mt-8 space-y-5 text-lg leading-relaxed text-muted-foreground">
             <p>
-              {`${site.name} is a local residential service provider in Fort Collins. I help homeowners with the repairs, installations, painting, and yard work that keep a home comfortable and looking its best.`}
+              {`${site.name} is a local landscaping provider in Greeley. We help homeowners keep their outdoor spaces neat, healthy, and looking their best.`}
             </p>
             <p>
-              When you call, you talk to me, and I&apos;m the one who shows up to do the work. No
-              hand-offs, no guessing who&apos;ll be at your door.
+              When you call, you can talk through what your property needs and get straightforward service from a local landscaping provider.
             </p>
           </div>
 

@@ -4,23 +4,23 @@ import { SectionHeading } from "./section-heading"
 const commitments = [
   {
     icon: Home,
-    title: "Treated like my own",
-    body: "Your home gets the same care I'd give my own property, from how the work is done to how the space is left.",
+    title: "Care for your property",
+    body: "Your outdoor space gets careful attention from the first pass through the final cleanup.",
   },
   {
     icon: Eye,
     title: "Attention to detail",
-    body: "Clean lines, careful prep, and finishing touches. Quality work is the whole point, not an extra.",
+    body: "Clean edges, careful work, and finishing touches. Quality service is the whole point, not an extra.",
   },
   {
     icon: Layers,
-    title: "One contact, many trades",
-    body: "Repairs, painting, doors, fixtures, cleaning, and yard work, handled by one local provider.",
+    title: "One local landscaping provider",
+    body: "Lawn care, cleanup, and landscaping needs handled by one local provider.",
   },
   {
     icon: MessageCircle,
     title: "Local & easy to reach",
-    body: "Based right here in Fort Collins. Call or send a request, and we'll talk through what you need.",
+    body: "Based right here in Greeley. Call or send a request, and we'll talk through what you need.",
   },
 ]
 

@@ -21,7 +21,7 @@ export function CtaBanner() {
 
         <p className="flex items-center justify-center gap-3 text-xs font-semibold uppercase tracking-[0.2em] text-accent">
           <span className="h-px w-8 bg-accent" aria-hidden="true" />
-          Fort Collins, Colorado
+          Greeley, Colorado
           <span className="h-px w-8 bg-accent" aria-hidden="true" />
         </p>
         <h2

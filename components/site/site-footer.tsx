@@ -10,7 +10,7 @@ export function SiteFooter() {
           <div className="md:col-span-5">
             <Logo inverted />
             <p className="mt-6 max-w-sm leading-relaxed text-primary-foreground/70">
-              Handyman, landscaping, and home improvement services for homeowners in Fort Collins, Colorado.
+              Landscaping and lawn care services for homeowners in Greeley, Colorado.
             </p>
             <a
               href="#contact"
@@ -48,7 +48,7 @@ export function SiteFooter() {
               </li>
               <li className="flex items-center gap-3 text-primary-foreground/80">
                 <MapPin className="size-4 shrink-0 text-accent" aria-hidden="true" />
-                Fort Collins, Colorado
+                Greeley, Colorado
               </li>
             </ul>
           </div>
@@ -58,7 +58,7 @@ export function SiteFooter() {
           <p>
             {"\u00A9"} {new Date().getFullYear()} {site.name}
           </p>
-          <p>Serving Fort Collins, Colorado</p>
+          <p>Serving Greeley, Colorado</p>
         </div>
       </div>
     </footer>
